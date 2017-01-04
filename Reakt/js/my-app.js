@@ -18,6 +18,7 @@ var myApp = new Framework7({
     modalTitle: 'Reaktion Time',
     // Enable Material theme
     material: true,
+    fastClicks: true
 });
 
 // Expose Internal DOM library
