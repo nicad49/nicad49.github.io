@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- JQuery Library -->
+    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+    <title>Timer</title>
+  </head>
+  <body>
+    <span>Timer<div id="timer"></div></span>
+    <p><button onclick="startTimer()">Start</button></p>
+    <p><button onclick="stopTimer()">Stop</button></p>
+    <script type="text/javascript">
+      
+      var intervalTimer;
+      function startTimer() {
+        var start = new Date().getTime()
+        intervalTimer = window.setInterval(function()
+        {
+          var time = new Date().getTime() - start;
+          $('#timer').text(time);
+
+        }, 1);
+      }
+      function stopTimer() {
+        window.clearInterval(intervalTimer);
+      }
+    </script>
+  </body>
+</html>

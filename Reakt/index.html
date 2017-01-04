@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+    
+    <!-- Framework7 CSS -->
+    <link rel="stylesheet" href="css/framework7.material.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.css">
+    
+    <!-- JQuery Library -->
+    <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+    
+    <!-- App specific Javascript -->
+    <script type="text/javascript" src="js/reakt.js"></script>
+    
+    <!-- App specific CSS -->
+    <link rel="stylesheet" href="css/reakt.css">
+    
+    <title>Reakt</title>
+  </head>
+  <body>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover">
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div data-page="panel-left" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+              <div class="center">Left Panel</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="list-block">
+                <ul>
+                  <li><a href="#history" class="item-link close-panel">
+                    <div class="item-content">
+                      <div class="item-inner">
+                      <div class="item-title">History</div>
+                      </div>
+                    </div>
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    <div class="views">
+      <div class="view view-main">
+        <div class="pages navbar-fixed">
+          
+          <!-- Main "Index" Page -->
+          <div data-page="index" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="left"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+                <div class="center">Reakt</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="content-block-title">Enter the information below to test your reaction time.</div>
+              <div class="list-block">
+                <ul>
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media">
+                        <i class="icon icon-form-gender"></i>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title label">Gender</div>
+                        <div class="item-input">
+                          <select id="genderSelector">
+                            <option>Male</option>
+                            <option>Female</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="item-content">
+                      <div class="item-media">
+                        <i class="icon icon-form-calendar"></i>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-title label">Age</div>
+                        <div class="item-input">
+                          <select id="ageSelector">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+                            <option>35</option>
+                            <option>36</option>
+                            <option>37</option>
+                            <option>38</option>
+                            <option>39</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                            <option>45</option>
+                            <option>46</option>
+                            <option>47</option>
+                            <option>48</option>
+                            <option>49</option>
+                            <option>50</option>
+                            <option>51</option>
+                            <option>52</option>
+                            <option>53</option>
+                            <option>54</option>
+                            <option>55</option>
+                            <option>56</option>
+                            <option>57</option>
+                            <option>58</option>
+                            <option>59</option>
+                            <option>60</option>
+                            <option>61</option>
+                            <option>62</option>
+                            <option>63</option>
+                            <option>64</option>
+                            <option>65</option>
+                            <option>66</option>
+                            <option>67</option>
+                            <option>68</option>
+                            <option>69</option>
+                            <option>70</option>
+                            <option>71</option>
+                            <option>72</option>
+                            <option>73</option>
+                            <option>74</option>
+                            <option>75</option>
+                            <option>76</option>
+                            <option>77</option>
+                            <option>78</option>
+                            <option>79</option>
+                            <option>80</option>
+                            <option>81</option>
+                            <option>82</option>
+                            <option>83</option>
+                            <option>84</option>
+                            <option>85</option>
+                            <option>86</option>
+                            <option>87</option>
+                            <option>88</option>
+                            <option>89</option>
+                            <option>90</option>
+                            <option>91</option>
+                            <option>92</option>
+                            <option>93</option>
+                            <option>94</option>
+                            <option>95</option>
+                            <option>96</option>
+                            <option>97</option>
+                            <option>98</option>
+                            <option>99</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+              
+              <div class="content-block">Age and Gender information are being collected as part of my school experiment.  All information will remain anonymous.
+              </div>
+              <p>
+                <a href="#" id="begin" class="button confirm-ok">Begin</a></p>
+            </div>
+          </div>
+          
+          
+          <div class="row">
+        <div class="col-33">33%</div>
+        <div class="col-33">33%</div>
+        <div class="col-33">33%</div>
+      </div>
+          
+          
+          <!-- Reaction Test page -->
+          <div class="page cached" data-page="reactionTest">
+            <!-- NavBar Section -->
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="left"><a href="#" class="link icon-only button back"><i class="icon icon-back"></i></a></div>
+                <div class="center">Ready? Set. Go!</div>
+              </div>
+            </div>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+              <p><div id="timer" class="content-block-title center"></div></p>
+              <div class="content-block">
+                <div id="reakt_button">
+                  <p class="buttons-row">
+                    <div class="row">
+                      <div class="col-33"><a href="#" id="1" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                      <div class="col-33"><a href="#" id="2" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                      <div class="col-33"><a href="#" id="3" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                    </div>
+                  </p>
+                  <br>
+                  <p class="buttons-row">
+                    <div class="row">
+                      <div class="col-33"><a href="#" id="4" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                      <div class="col-33"><a href="#" id="5" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                      <div class="col-33"><a href="#" id="6" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                    </div>
+                  </p>
+                  <br>
+                  <p class="buttons-row">
+                    <div class="row">
+                      <div class="col-33"><a href="#" id="7" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                      <div class="col-33"><a href="#" id="8" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                      <div class="col-33"><a href="#" id="9" class="button button-fill color-red reaktButton" style="display:none;"></a>&nbsp;</div>
+                    </div>
+                  </p>    
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of ReactionTest Page -->
+  
+          <!-- History Page -->
+          <div class="page cached" data-page="history">
+            <!-- NavBar Section -->
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="left"><a href="#" class="link icon-only button back"><i class="icon icon-back"></i></a></div>
+                <div class="center">History</div>
+              </div>
+            </div>
+            
+            <div class="page-content">
+              <div class="content-block">
+                <table id="historyTable">
+                  <tr>
+                    <th>Id</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                    <th>Avg</th>
+                  </tr>
+                  <tbody id="historyTableValues"></tbody>
+                </table>
+                <p><a href="#" id="export" class="button">Export</a></p>
+              </div>  
+            </div>
+          </div>            
+  
+          
+          <!-- End of History Page -->
+  
+          
+        </div>
+      </div>    
+    </div>
+
+    <div class="popup popup-summary">
+      <div id="summaryDiv">  
+        <div class="content-block-title">Round Summary</div>
+        <div class="content-block">
+          <p id="yourId"></p>
+          <table id="summaryTable">
+            <tr>
+              <th>Attempt</th>
+              <th>Time(ms)</th>
+            </tr>
+            <tbody id="tableValues"></tbody>
+          </table>
+          <p><a href="#" class="close-popup button">Close</a></p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Framework7 Library -->
+    <script type="text/javascript" src="lib/framework7.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+#timer {
+  text-align: center;
+  font-size: x-large;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#summaryDiv {
+  margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0)
+}
+
+#summaryTable table,th,td {
+  margin: 0 auto;
+  border-collapse: collapse; 
+  font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+  text-align: left;
+  border: solid #ddd 1px;
+  padding: 5px 20px 5px 5px;
+}
+
+#historyTable table,th,td {
+  margin: 0 auto;
+  border-collapse: collapse; 
+  font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+  text-align: left;
+  border: solid #ddd 1px;
+  padding: 6px 10px 6px 6px;
+}
+
+.reaktButton {
+  height: 100px;
+  align-content: center
+}
+  
