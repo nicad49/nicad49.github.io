@@ -68,7 +68,7 @@ $$(document).on('pageAfterAnimation', '.page[data-page="reactionTest"]', functio
   round1 = setTimeout(function() {
     var buttonId = randomButton();
     startTimer();
-    $$(buttonId).show().once('mousedown', function(e) {
+    $$(buttonId).show().once('click', function(e) {
       // stop timer
       stopTimer();
       time1 = parseInt($$('#timer').text());
@@ -80,7 +80,7 @@ $$(document).on('pageAfterAnimation', '.page[data-page="reactionTest"]', functio
       round2 = setTimeout(function() {
         var buttonId = randomButton();
         startTimer();
-        $$(buttonId).show().once('mousedown', function(e) {
+        $$(buttonId).show().once('click', function(e) {
           // stop timer
           stopTimer();
           time2 = parseInt($$('#timer').text());
