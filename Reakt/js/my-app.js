@@ -68,7 +68,7 @@ $$(document).on('pageAfterAnimation', '.page[data-page="reactionTest"]', functio
   round1 = setTimeout(function() {
     var buttonId = randomButton();
     startTimer();
-    $$(buttonId).show().once('click', function(e) {
+    $$(buttonId).show().once('mousedown', function(e) {
       // stop timer
       stopTimer();
       time1 = parseInt($$('#timer').text());
